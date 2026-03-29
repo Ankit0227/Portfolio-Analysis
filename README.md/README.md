@@ -1,5 +1,10 @@
 # 📊 Stock Portfolio Analysis & Risk Dashboard
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.5+-green.svg)](https://pandas.pydata.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## 📌 Overview
 
 This project provides a comprehensive analysis of a diversified stock portfolio (AAPL, MSFT, GOOGL, TSLA, JPM, PFE, WMT, VTI) to evaluate performance, risk metrics, and diversification strategy over 6+ years of historical data (2019-2025).
@@ -239,6 +244,20 @@ _Historical price movements for all stocks_
 
 ---
 
+## 📈 Quick Start
+
+### Run Streamlit Dashboard (Easiest)
+```bash
+pip install -r requirements.txt
+streamlit run dashboard/app.py
+```
+
+### Run Jupyter Notebook
+```bash
+jupyter notebook notebooks/Stock_Portfolio_Analysis.ipynb
+
+```
+
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
@@ -250,7 +269,7 @@ _Historical price movements for all stocks_
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio-analysis.git
+git clone https://github.com/Ankit0227/Portfolio-Analysis.git
 cd portfolio-analysis
 ```
 
@@ -452,7 +471,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/portfolio-analysis/issues) page
+Check the [Issues](https://github.com/Ankit0227/Portfolio-Analysis/issues) page
 2. Review the documentation
 3. Contact the author
 
